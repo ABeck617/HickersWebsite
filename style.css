@@ -1,0 +1,13 @@
+.special {
+    background-image: url('images/stream420x240.jpg');
+    width: 400px;
+    height: 400px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+    
+
+}
