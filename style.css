@@ -33,6 +33,12 @@ body {
     justify-content: center;
 }
 
+.arizona {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .relax {
     background-image: url('images/relax420x237.jpg');
     width: 420px;
@@ -62,7 +68,7 @@ body {
 
 nav {
     background-color:#333a35;
-    height: 48px;
+    height: 40px;
 }
 
 
@@ -81,6 +87,7 @@ nav ul li a{
     font-size: 15px;
     color: white;  
     text-decoration: none;
+    margin: 10px;
 }
 
 
@@ -89,15 +96,28 @@ nav ul li a:hover{
     color:#eca419;
 }
 
-.photo-strip {
+.photo-container {
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: white; 
+    /* justify-content: space-around; */
+    /* text-align: center; */
+    /* margin-bottom: 40px; */
     display: flex;
-    color: white;
-
+    padding: 0px;
+    margin: 0px;
+    width: 1200px;
 }
 
-.recipes .tent .candles .backpacks {
-   margin: 2px;
-   padding: 20px;
-   
-    
+
+
+
+.recipe-container, .tent-container, .backpack-container, .candles-container{
+    margin:0 2px;
+    padding-top: 20px;
+}
+
+
+.gearout{
+    background-color: grey;
 }
